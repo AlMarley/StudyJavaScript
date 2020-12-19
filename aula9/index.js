@@ -33,7 +33,7 @@
  const b = 'Luiz';
  console.log(a*b);
 
- //convertendo valor
+ //convertendo valor - parseInt / parseFloat / Number
  const num1 = 3;
- const num2 = parseInt`6`;//convertendo a string pra valor number.
+ const num2 = parseInt`6`;//convertendo a string pra valor do tipo int.
  console.log(num1+num2);
