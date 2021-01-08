@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+:root{
+  --colorprime: rgba(25, 41, 114, 0.842);
+  --colorprime-dark:rgb(235, 228, 228);
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+body {
+    background-color:var(--colorprime);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    text-align: justify;
+    font-family:Tahoma, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    background:#fff;
+    padding: 20px;
+    border-radius: 9px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 20px;
+    height:35px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 3px solid var(--colorprime);
+}
+
+form button {
+    border: none;
+    background: rgb(235, 127, 50);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover{
+    background: var(--colorprime-dark);
+    color:#000;
+}
+
+/*
+form button:active{
+    background: #000;
+    color:#fff;
+}
+*/
+
+.relogio{
+    font-size: 3em;
+}
+
+.pausado{
+    color: firebrick;
+}
