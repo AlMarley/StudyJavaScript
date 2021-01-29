@@ -44,7 +44,7 @@
         console.log(`Exibindo o Tabela!`);
     })
     .catch(e =>{
-        console.log(`Erro`, e);
+        console.log(`ERRO:`, e);
     });
 
 
